@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/SWself_introduce/static/css/main.8426f343.chunk.css",
-    "main.js": "/SWself_introduce/static/js/main.cf804e32.chunk.js",
-    "main.js.map": "/SWself_introduce/static/js/main.cf804e32.chunk.js.map",
+    "main.js": "/SWself_introduce/static/js/main.ea2b511a.chunk.js",
+    "main.js.map": "/SWself_introduce/static/js/main.ea2b511a.chunk.js.map",
     "runtime-main.js": "/SWself_introduce/static/js/runtime-main.4846287d.js",
     "runtime-main.js.map": "/SWself_introduce/static/js/runtime-main.4846287d.js.map",
-    "static/js/2.b313b060.chunk.js": "/SWself_introduce/static/js/2.b313b060.chunk.js",
-    "static/js/2.b313b060.chunk.js.map": "/SWself_introduce/static/js/2.b313b060.chunk.js.map",
+    "static/js/2.95cce167.chunk.js": "/SWself_introduce/static/js/2.95cce167.chunk.js",
+    "static/js/2.95cce167.chunk.js.map": "/SWself_introduce/static/js/2.95cce167.chunk.js.map",
     "static/js/3.1ffbe191.chunk.js": "/SWself_introduce/static/js/3.1ffbe191.chunk.js",
     "static/js/3.1ffbe191.chunk.js.map": "/SWself_introduce/static/js/3.1ffbe191.chunk.js.map",
     "index.html": "/SWself_introduce/index.html",
     "static/css/main.8426f343.chunk.css.map": "/SWself_introduce/static/css/main.8426f343.chunk.css.map",
-    "static/js/2.b313b060.chunk.js.LICENSE.txt": "/SWself_introduce/static/js/2.b313b060.chunk.js.LICENSE.txt",
+    "static/js/2.95cce167.chunk.js.LICENSE.txt": "/SWself_introduce/static/js/2.95cce167.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/SWself_introduce/static/media/background.5f3d53a0.jpg",
     "static/media/background_2.jpg": "/SWself_introduce/static/media/background_2.7337fba5.jpg",
     "static/media/권노현_full.png": "/SWself_introduce/static/media/권노현_full.88f96a5c.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4846287d.js",
-    "static/js/2.b313b060.chunk.js",
+    "static/js/2.95cce167.chunk.js",
     "static/css/main.8426f343.chunk.css",
-    "static/js/main.cf804e32.chunk.js"
+    "static/js/main.ea2b511a.chunk.js"
   ]
 }
