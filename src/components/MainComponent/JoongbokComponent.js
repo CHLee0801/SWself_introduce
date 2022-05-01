@@ -31,7 +31,7 @@ const JoongbokComponent=()=>
         }
         return(
     <div style={css.bg}>
-        <a href='http://localhost:3000' style={css.link}>
+        <a href="javascript:history.back();" style={css.link}>
             <LeaveButton></LeaveButton>
         </a> 
         <Image type = {store.getState()['image']}></Image>

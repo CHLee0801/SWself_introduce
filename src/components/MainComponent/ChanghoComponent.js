@@ -53,7 +53,7 @@ const ChanghoComponent=()=>
         }
         return(
     <div style={css.bg}>
-        <a href='https://chlee0801.github.io/SWself_introduce/' style={css.link}>
+        <a href="javascript:history.back();" style={css.link}>
             <LeaveButton></LeaveButton>
         </a> 
         <Image type = {store.getState()['image']}></Image>
