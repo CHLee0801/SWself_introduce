@@ -1,6 +1,6 @@
 import React,{Component} from "react"
 import StartComponent from "./components/StartComponent2/StartComponent"
-import {Route} from 'react-router-dom'
+import {BrowserRouter, Route, Router} from 'react-router-dom'
 import MainComponent from "./components/MainComponent/MainComponent"
 import Changho from "./components/MainComponent/Changho"
 import Dongsung from "./components/MainComponent/Dongsung"
@@ -12,12 +12,14 @@ const App=()=>
 
     return(
       <div>
-        <Route path="/" render={(props) => <StartComponent></StartComponent>} exact/>
-        <Route path="/nohyun" render={(props) => <Nohyun></Nohyun>} exact/>
-        <Route path="/junhyeok" render={(props) => <Junhyeok></Junhyeok>} exact/>
-        <Route path="/changho" render={(props) => <Changho></Changho>} exact/>
-        <Route path="/dongsung" render={(props) => <Dongsung></Dongsung>} exact/>
-        <Route path="/joongbok" render={(props) => <Joongbok></Joongbok>} exact/>
+        <BrowserRouter basename="/SWself_introduce">
+          <Route path="/" render={(props) => <StartComponent></StartComponent>}/>
+          <Route path="/nohyun" render={(props) => <Nohyun></Nohyun>}/>
+          <Route path="/junhyeok" render={(props) => <Junhyeok></Junhyeok>}/>
+          <Route path="/changho" render={(props) => <Changho></Changho>}/>
+          <Route path="/dongsung" render={(props) => <Dongsung></Dongsung>}/>
+          <Route path="/joongbok" render={(props) => <Joongbok></Joongbok>}/>
+        </BrowserRouter>
       </div>
     )
   
